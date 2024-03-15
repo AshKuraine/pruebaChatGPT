@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Morado oscuro */
+    color: #ffffff; /* Blanco */
+}
+
+header, footer, section {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #00ff00;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: #00ff00;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+    background-color: #403a47; /* Morado medio */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #4d4257; /* Morado oscuro */
+}
+
+footer {
+    text-align: center;
+    background-color: #2c2733; /* Morado oscuro */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Blanco */
+}
+
+section {
+    background-color: #423c4f; /* Morado claro */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h3 {
+    color: #ffffff; /* Blanco */
+}
+
+/* Media query para flexbox en dispositivos pequeños */
+@media screen and (max-width: 600px) {
+    header, footer, section {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
