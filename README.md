@@ -8,3 +8,13 @@ As I continue my journey in Full Stack development, I am always on the lookout f
 
 ## Hobbies
 - Playing Videogames: ...
+
+## Skills
+- Problem-Solving: As a developer, I thrive on solving complex problems. I’m constantly exploring new technologies and...
+
+## Technologies
+- Back-End: Proficient in JavaScript, I bring to the table a strong understanding of server-side development...
+- Front-End: My expertise in React allows me to create interactive and user-friendly interfaces...
+
+## Languages
+I can talk spanish, english, french.
